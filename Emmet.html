@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- div>ul>li> 부모 -> 자식 노드 -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+<!--div>ul+ol+div 부모 -> 형제노드 -->
+    <div>
+        <ul></ul>
+        <ol></ol>
+        <div></div>
+    </div>
+
+<!--div+ol+li-->
+    <div></div>
+    <ol></ol>
+    <li></li>
+
+<!-- div>ul>li*5> -->
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+<!-- p.container{Hello World} -->
+<p class="container">Hello World</p>
+
+<!-- p.container{item$} -->
+<p class="container">item1</p>
+
+<!-- p.container{item$}*10 -->
+<p class="container">item1</p>
+<p class="container">item2</p>
+<p class="container">item3</p>
+<p class="container">item4</p>
+<p class="container">item5</p>
+<p class="container">item6</p>
+<p class="container">item7</p>
+<p class="container">item8</p>
+<p class="container">item9</p>
+<p class="container">item10</p>
+
+
+
+</body>
+</html>
+
+<!-- body, head 처럼 들여쓰기가 안된 경우가 최상단 [부모 테그]-->
+<!-- div 처럼 들여쓰기가 된 경우가 하단 [body의 자식 테그]-->

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>휴스타 카페</title>
+    <style>
+        /*
+        border : 픽셀, 줄수, 줄 색상
+        padding : 글자사이 여백
+        margin : auto -> 중간정렬
+        */
+        table{
+            margin: auto;
+            border : 3px solid darkblue;
+            text-align: center; 
+        }
+
+        th{
+            border: 1px solid lightblue;
+            padding : 12px;
+            background-color: aquamarine;
+            width: 200px;
+            font-size: large;
+        }
+
+        td{
+            border: 1px solid lightblue;
+            padding : 10px;
+            font-size: large;
+            background-color:lightcyan;
+
+        }
+        git config --global user.email "sky32133@gmail.com"
+        git config --global user.name "LeeHwaSeok"
+    </style>
+</head>
+<body>
+    <table>
+        <caption> <br><h1>읍천리 메뉴</h1><br> </caption>
+
+            <tr>
+                <th>메뉴</th>
+                <th>가격</th>
+                <th>인원</th>
+                <th>총액</th>
+            </tr>
+            <tr>
+                <td>아메리카노</td>
+                <td rowspan="2">3,500</td>
+                <td rowspan="6">1</td>
+                <td>3,500</td>
+            </tr>
+            <tr>
+                <td>읍천리 감주</td>
+                <td>3,500</td>
+            </tr>
+            <tr>
+                <td>카페라떼</td>
+                <td rowspan="2">4,000</td>
+                <td>4,000</td>
+            </tr>
+            <tr>
+                <td>콜드브루</td>
+                <td>4,000</td>
+            </tr>
+            <tr>
+                <td>미숫가루</td>
+                <td rowspan="3">4,500</td>
+                <td>4,500</td>
+            </tr>
+            <tr>
+                <td>헤이즐넛 디카페인</td>
+                <td>4,500</td>
+            </tr>
+            <tr>
+                <td>자몽에이드</td>
+                <td>5</td>
+                <td>22,500</td>
+            </tr>
+            <tr>
+                <td>아이스 토피넛 라떼</td>
+                <td rowspan="2">5,000</td>
+                <td rowspan="3">1</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>자바초코칩 스무디</td>
+                <td>5,000</td>
+            </tr>
+            <tr>
+                <td>망고밭라떼</td>
+                <td rowspan="3">5,500</td>
+                <td>5,500</td>
+            </tr>
+
+            <tr>
+                <td>흑당버블티</td>
+                <td>2</td>
+                <td>11,000</td>
+            </tr>
+            <tr>
+                <td>딸기밭라떼</td>
+                <td>6</td>
+                <td>33,000</td>
+            </tr>
+            <tr>
+                <td colspan="3">합계</td>
+                <td>106,000</td>
+            </tr>
+
+    </table>
+</body>
+</html>
